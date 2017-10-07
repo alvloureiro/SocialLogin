@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { LoginButton } from 'react-native-fbsdk';
 import { View, Text } from 'react-native';
 
 class App extends Component {
@@ -6,6 +7,7 @@ class App extends Component {
     return (
       <View style={{ flex: 1 }}>
         <Text>SOCIAL LOGIN!</Text>
+        <LoginButton />
       </View>
     );
   }
