@@ -22,7 +22,9 @@ const styles = {
 const Card = props => <View style={styles.containerStyle}>{props.children}</View>;
 
 Card.propTypes = {
-  children: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
+  children: PropTypes.arrayOf(
+    PropTypes.element,
+  ).isRequired,
 };
 
 export { Card }; // eslint-disable-line import/prefer-default-export
