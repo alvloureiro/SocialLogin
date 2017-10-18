@@ -21,7 +21,9 @@ class App extends Component {
   render() {
     return (
       <View style={{ flex: 1 }}>
+
         <Header style={style.headerStyle} centerComponent={{ text: 'Social Login', style: { fontSize: 22, color: '#1d4e89' } }} />
+
         <Card style={style.loginButtonStyle}>
           <LoginButton
             onLoginFinished={(error, result) => {
