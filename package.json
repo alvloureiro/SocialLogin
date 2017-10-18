@@ -14,7 +14,8 @@
 		"react-native-elements": "^0.17.0",
 		"react-native-fbsdk": "git://github.com/facebook/react-native-fbsdk#065507aa1d2b8b0b6cb50d13117694123f8303fa",
 		"react-native-firestack": "^2.3.9",
-		"react-native-vector-icons": "^4.4.2"
+		"react-native-vector-icons": "^4.4.2",
+		"react-navigation": "^1.0.0-beta.15"
 	},
 	"devDependencies": {
 		"babel-eslint": "^8.0.0",
